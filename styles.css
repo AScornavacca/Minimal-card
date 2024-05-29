@@ -1,0 +1,66 @@
+:root{
+    --bg-2:#fafaf9;
+    --bg-1:#ffffff;
+    --bg-tag:#e6d6fc;
+    --color-tag: #883ae1;
+    --color-title: #20293a;
+    --color-parrafo:#6c727f;
+
+}
+
+body {
+    padding: 0;
+    margin:0;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+min-height: 100vh;
+background-color: var(--bg-2);
+font-family: "Sora", sans-serif;
+font-size: 14px;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size:18px;
+}
+
+section,
+section img{
+    width: 336px;
+    height: fit-content;
+    border-radius: 16px;
+    
+    
+}
+section{
+    background-color: var(--bg-1);
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+p {
+    color: var(--color-parrafo);
+}
+
+section .tag{
+    margin: 16px 0;
+    background-color: var(--bg-tag);
+    color: #883ae1;
+    border-radius: 16px;
+    font-family: sans-serif;
+    font-size: 0.625rem;
+    font-weight: 750;
+    padding: 6px 16px;
+    display: inline-block;
+    
+}
+
+.author{
+    color: var(--color-parrafo);
+}
+
+section div:nth-child(1){
+  border-bottom: 1px solid #e5eaf0;
+}
